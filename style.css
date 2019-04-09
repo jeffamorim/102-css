@@ -24,6 +24,11 @@ nav a:first-child{
     color: blue;
     font-weight: 900;
 }
+header{
+    height: 720px;
+    background-image: url("images/perry.jpg");
+    background-size: cover;
+}
 section{
     height: 300px;
     display: flex;

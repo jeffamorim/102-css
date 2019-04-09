@@ -67,3 +67,21 @@ section div input:nth-child(4){
     font-weight: 900;
 }
 
+footer{
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div img{
+    width: 30px;
+    height: 30px;
+}

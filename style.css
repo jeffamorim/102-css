@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    color: rgb(246, 142, 44);
+    text-decoration: none;
+}
+nav a:first-child{
+    font-size: 22pt;
+    color: blue;
+    font-weight: 900;
+}

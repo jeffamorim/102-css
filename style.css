@@ -7,15 +7,63 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
+    
 
 }
-a{
+nav a{
     color: rgb(246, 142, 44);
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav a:hover{
+    color: rgb(246, 142, 44);
+    text-decoration: underline;
 }
 nav a:first-child{
     font-size: 22pt;
     color: blue;
     font-weight: 900;
 }
+section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+section div{
+    height: 170px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
+    border-radius: 10px;
+}
+div input{
+    margin-bottom: 5px;
+    width: 95%;
+}
+h3:focus{
+    color: white;
+}
+section div input:focus{
+    background-color: rgb(246, 142, 44);
+}
+
+input::placeholder{
+    color: rgb(246, 142, 44);
+    font-size: 8pt;
+}
+
+section div input:nth-child(4){
+    margin-top: 20px;
+    width: 70%;
+    height: 22px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 0px 9px gray;
+    color: rgb(246, 142, 44);
+    font-weight: 900;
+}
+
